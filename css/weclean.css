@@ -1,12 +1,11 @@
 @media only screen
     and (max-device-width: 736px){
-
-    html {
-        background-color: #baeeff;
-        text-align: center;
-
+    html, body {
         margin: 0;
         padding: 0;
+    }
+    body {
+        text-align: center;
 
         font-family: 'Dosis', sans-serif;
 
@@ -18,6 +17,7 @@
     }
 
     #intro {
+        background-color: #baeeff;
         width: 100%;
         height: 100vh;
     }
@@ -48,6 +48,10 @@
         margin-top: 7.5vh;
         font-size: 11vw;
         color: #1adf13;
+    }
+
+    #main {
+
     }
 
     @keyframes fadein {
