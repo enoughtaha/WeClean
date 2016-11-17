@@ -5,6 +5,9 @@
         background-color: #baeeff;
         text-align: center;
 
+        margin: 0;
+        padding: 0;
+
         font-family: 'Dosis', sans-serif;
 
         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -21,7 +24,8 @@
         font-weight: 800;
         font-size: 20vw;
 
-        margin-top: 16vh;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
 
         color: #1adf13;
     }
@@ -29,9 +33,7 @@
         width: 30vh;
         height: 30vh;
 
-        margin: auto;
-        position: absolute;
-        top: 0; left: 0; bottom: 0; right: 0;
+        margin-top: 5vh;
     }
 
     @keyframes fadein {
