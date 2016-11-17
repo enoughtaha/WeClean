@@ -11,10 +11,10 @@
         font-family: 'Dosis', sans-serif;
 
         -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 2s;
     }
 
     #intro {
@@ -24,7 +24,7 @@
         font-weight: 800;
         font-size: 20vw;
 
-        margin-top: 10vh;
+        margin-top: 5vh;
         margin-bottom: 5vh;
 
         color: #1adf13;
@@ -33,7 +33,7 @@
         width: 30vh;
         height: 30vh;
 
-        margin-top: 5vh;
+        margin-top: 3.5vh;
     }
 
     @keyframes fadein {
