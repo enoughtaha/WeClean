@@ -3,9 +3,10 @@
     html, body {
         margin: 0;
         padding: 0;
+        border: 0;
     }
     body {
-        text-align: center;
+        background-color: #baeeff;
 
         font-family: 'Dosis', sans-serif;
 
@@ -17,6 +18,7 @@
     }
 
     #intro {
+        text-align: center;
         background-color: #baeeff;
         width: 100%;
         height: 100vh;
@@ -25,33 +27,101 @@
         font-weight: 800;
         font-size: 20vw;
 
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        margin-top: 3.5vh;
+        margin-bottom: 3.5vh;
 
         color: #1adf13;
     }
     .head-logo {
-        width: 30vh;
-        height: 30vh;
-
+        width: 25vh;
+        height: 25vh;
     }
     .desc-top {
         font-weight: 600;
         font-size: 7.5vw;
 
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        margin-top: 3.5vh;
+        margin-bottom: 3.5vh;
 
         color: #1adf13;
     }
     .fa-custom {
-        margin-top: 7.5vh;
+        margin-top: 3vh;
+        margin-bottom: 0;
         font-size: 11vw;
         color: #1adf13;
     }
 
     #main {
+        background-color: #9cff99;
+        width: 100%;
+        height: 100vh;
 
+        text-align: center;
+    }
+    label {
+        color: #1AC6FF;
+        font-size: 5vw;
+    }
+    .main-title {
+        font-weight: 600;
+        font-size: 15vw;
+
+        color: #1AC6FF;
+    }
+
+
+    ul,li { list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0; }
+
+    button {
+        font-family: 'Dosis', sans-serif;
+        margin-top: 3vh;
+        width: 60vw;
+
+        color: #00C0FF;
+        background-color: #A1F09E;
+        border-width: 0px;
+        box-shadow: 0 1vw #96DE93;
+
+        font-weight: 600;
+        font-size: 7.5vw;
+        padding: 3vw;
+        border-radius: 3vw;
+
+        outline: 0;
+    }
+    button:active {
+        box-shadow: 0 0 #96DE93;
+        transform: translateY(1vw);
+    }
+
+    input {
+        color: #00C0FF;
+        margin-top: 5vh;
+        font-weight: 600;
+        font-size: 5vw;
+        font-family: 'Dosis', sans-serif;
+        border-radius: 2vw;
+        border: none;
+
+        width: 80vw;
+        height: 5vh;
+    }
+
+    textarea {
+        color: #00C0FF;
+        margin-top: 5vh;
+        font-weight: 600;
+        font-size: 5vw;
+        font-family: 'Dosis', sans-serif;
+        border-radius: 2vw;
+        border: none;
+
+        width: 80vw;
+        height: 10vh;
     }
 
     @keyframes fadein {

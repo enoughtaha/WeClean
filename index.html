@@ -12,20 +12,39 @@
     </head>
 
     <body>
+        <header>
+
+        </header>
         <div id="intro">
             <h1 class="logo-top">WeClean</h1>
             <img class="head-logo" src="media/WeCleanPolar.png"><br />
             <h1 class="desc-top">a social and education platform to fight pollution</h1>
+            <ul>
+                <li><button onClick="window.open('media/WeClean.pdf');">Info Pack</button></li>
+                <li><button id="involve">Get Involved</button></li>
+            </ul>
             <a> <i class="fa-custom fa fa-angle-double-down"></i> </a>
         </div>
 
         <div id="main">
+            <h1 class="main-title">Get Involved!</h1>
 
+            <button onclick="window.open('https://www.linkedin.com/in/ahnaftahasteam');" class="main-button main-button-push transition-all">LinkedIn</button>
+            <button onclick="window.open('mailto:wecleanesa@gmail.com');" target="_top" class="main-button main-button-push transition-all">Email</button>
+
+            <form action="https://formspree.io/wecleanesa@gmail.com" method="POST">
+                <ul>
+                <li><input type="name" name="name" placeholder="Name"></li>
+                <li><input type="email" name="email" placeholder="Email"></li>
+                <li><textarea name="message" placeholder="Comments? Suggestions? "></textarea></li>
+                <li><button type="submit">Submit</button></li>
+            </form>
         </div>
 
         <script
-        src="https://code.jquery.com/jquery-3.1.1.slim.js"
-        integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
-        crossorigin="anonymous"></script>
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+        <script src="js/weclean.js"></script>
     </body>
 </html>
